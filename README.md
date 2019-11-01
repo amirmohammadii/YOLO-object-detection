@@ -50,9 +50,13 @@ Now do the following steps:
 1. Open ```cmd``` and run ```git clone https://github.com/amirmohammadii/YOLO-object_detection```.
 
 2. For using a pre-trained model, you need to download ```yolov3.cfg``` and ```yolov3.weights```.
-
    Download ```yolov3.weights``` and it's proportionate ```.cfg``` file. Then put it in ```YOLO Detection/yolo-coco``` folder.
-   you can use ```wget https://pjreddie.com/media/files/yolov3.weights``` and ```wget https://pjreddie.com/media/files/yolov3.cfg```.
+   Also, you can use the following commands:
+   
+   ```wget https://pjreddie.com/media/files/yolov3.weight
+   
+      wget https://pjreddie.com/media/files/yolov3.cfg
+   ```
    
    **note:** In order to use other versions of YOLO, you can download proportionate ```.cfg``` and ```.weights``` files from [this](https://pjreddie.com/darknet/yolo/#demo) website.
    
