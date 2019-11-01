@@ -53,9 +53,9 @@ Now do the following steps:
    Download ```yolov3.weights``` and it's proportionate ```.cfg``` file. Then put it in ```YOLO Detection/yolo-coco``` folder.
    Also, you can use the following commands:
    
-   ```wget https://pjreddie.com/media/files/yolov3.weight
-   
-      wget https://pjreddie.com/media/files/yolov3.cfg
+   ```
+   wget https://pjreddie.com/media/files/yolov3.weight
+   wget https://pjreddie.com/media/files/yolov3.cfg
    ```
    
    **note:** In order to use other versions of YOLO, you can download proportionate ```.cfg``` and ```.weights``` files from [this](https://pjreddie.com/darknet/yolo/#demo) website.
