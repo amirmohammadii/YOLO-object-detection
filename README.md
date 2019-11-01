@@ -50,7 +50,7 @@ Now do the following steps:
 1. Open ```cmd``` and run this command:
 
    ```
-   git clone https://github.com/amirmohammadii/YOLO-object_detection
+   git clone https://github.com/amirmohammadii/YOLO-object-detection
    ```
 
 2. For using a pre-trained model, you need to download ```yolov3.cfg``` and ```yolov3.weights```.
