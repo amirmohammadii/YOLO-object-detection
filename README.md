@@ -1,4 +1,4 @@
-# YOLO-object-detection-
+# YOLO-object-detection
 YOLO (You Only Look Once) introduced in 2015 and it is a state-of-the-art, real-time object detection algorithm. In the following, we will apply the YOLO algorithm to detect objects in images, videos and webcam ([Paper](https://arxiv.org/abs/1506.02640)).
 
 ## How it works?
@@ -47,7 +47,7 @@ If you don't already have installed python and OpenCV on your computer, you shou
 
 Now do the following steps:
 
-1. open ```cmd``` and run ```git clone https://github.com/amirmohammadii/YOLO-object_detection-```.
+1. Open ```cmd``` and run ```git clone https://github.com/amirmohammadii/YOLO-object_detection```.
 
 2. For using a pre-trained model, you need to download ```yolov3.cfg``` and ```yolov3.weights```.
 
@@ -58,7 +58,7 @@ Now do the following steps:
    
 3. Go through ``` YOLO Detection``` directory in ```cmd```. 
 
-4. run ```python image_detection.py --image images/<YOUR_IMAGE> --yolo yolo-coco```.
+4. Run ```python image_detection.py --image images/<YOUR_IMAGE> --yolo yolo-coco```.
 
 ## Detection using a pre-trained model (without OpenCV)
 
