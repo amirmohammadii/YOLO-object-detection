@@ -137,7 +137,7 @@ Now that we’ve learned how to apply the YOLO object detector to single images,
 
 2. Run ```python  yolo_video.py  --input  videos/car.mp4   --output  output/car.avi  --yolo  yolo-coco```
 
-## Real-Time Detection on a Webcam
+## Real-Time detection on a webcam
 
 Running YOLO on test data isn't very interesting if you can't see the result. Instead of running it on a bunch of images let's run it on the input from a webcam!
 
@@ -148,3 +148,18 @@ To run this demo you will need to compile Darknet with CUDA and OpenCV. Then run
 ```
 
 You will need a webcam connected to the computer that OpenCV can connect to or it won't work. If you have multiple webcams connected and want to select which one to use you can pass the flag ```-c <num>``` to pick (OpenCV uses webcam ```0``` by default).
+
+
+### Real-time detection with OpenCV
+
+Open ```cmd``` and in ```/YOLO Detection``` directory run this command:
+
+```
+python webcam_detection.py -i o
+```
+
+Also, for live stream by url Just run this:
+
+```
+python webcam_detection.py -i http://192.168.43.102:7878/video?x.mjpg
+```
