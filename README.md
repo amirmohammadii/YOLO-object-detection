@@ -47,7 +47,11 @@ If you don't already have installed python and OpenCV on your computer, you shou
 
 Now do the following steps:
 
-1. Open ```cmd``` and run ```git clone https://github.com/amirmohammadii/YOLO-object_detection```.
+1. Open ```cmd``` and run this command:
+
+   ```
+   git clone https://github.com/amirmohammadii/YOLO-object_detection
+   ```
 
 2. For using a pre-trained model, you need to download ```yolov3.cfg``` and ```yolov3.weights```.
    Download ```yolov3.weights``` and it's proportionate ```.cfg``` file. Then put it in ```YOLO Detection/yolo-coco``` folder.
